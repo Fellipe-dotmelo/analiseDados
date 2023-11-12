@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Abra o arquivo Excel com todas as abas
-xlsx = pd.ExcelFile('Fluxo de Caixa - Setembro(melhor gás).xlsx')
+xlsx = pd.ExcelFile('melhorGas_analise.xlsx.xlsx')
 
 # Escolha a aba que deseja plotar (substitua 'Dia 02' pelo nome da aba desejada)
 sheet_name = 'Dia 02'
